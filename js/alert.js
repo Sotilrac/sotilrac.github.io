@@ -1,0 +1,1 @@
+../bower_components/bootstrap/js/dist/alert.js
