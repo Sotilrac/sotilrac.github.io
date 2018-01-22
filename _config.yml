@@ -18,3 +18,6 @@ github_username:  sotilrac
 
 # Build settings
 markdown: kramdown
+exclude:
+  - "bower_components"
+  - "bower.json"

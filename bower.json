@@ -1,0 +1,29 @@
+{
+  "name": "sotilrac.github.io",
+  "homepage": "https://asmat.ca",
+  "authors": [
+    "Carlos <carlos.asmat@gmail.com>"
+  ],
+  "description": "Personal Site",
+  "main": "index.html",
+  "keywords": [
+    "blog",
+    "robots",
+    "engineer",
+    "resume",
+    "portfolio",
+    "projects"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
