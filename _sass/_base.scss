@@ -1,3 +1,48 @@
 .mono {
     font-family: $mono-font-family;
 }
+
+.hero-header {
+    font-family: $title-font-family;
+    color: $orange;
+    font-size: 1.7em;
+}
+
+.name-header {
+	font-size: 2em;
+	text-align: center;
+	background-color: $dark;
+	padding: 7em 4em;
+	color: $light;
+}
+
+.dark {
+	background-color: $dark;
+}
+
+h3, .h3{
+	font-size: 1.2em;
+}
+
+h3 .company {
+	font-weight:300;
+}
+
+h3 .location {
+	font-weight:300;
+}
+
+li {
+	padding-left: 0.2em;
+}
+ul {
+	padding-left: 1em;
+}
+
+mark {
+	border-radius: 0.15em;
+}
+
+footer {
+	color: $light;
+}

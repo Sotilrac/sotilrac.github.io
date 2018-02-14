@@ -5,81 +5,53 @@
 
 @font-face {
     font-family: 'Hack';
-    src: url('font/Hack-Regular.ttf');
+    src: url('../font/Hack-Regular.ttf');
 }
 
-@font-face {
-    font-family: 'Hack';
-    src: url('font/Hack-Bold.ttf');
-    font-weight: bold;
-}
+// @font-face {
+//     font-family: 'Hack';
+//     src: url('../font/Hack-Bold.ttf');
+//     font-weight: bold;
+// }
+
+// @font-face {
+//     font-family: 'Hack';
+//     src: url('../font/Hack-Italic.ttf');
+//     font-style: italic, oblique;
+// }
+
+// @font-face {
+//     font-family: 'Hack';
+//     src: url('../font/Hack-BoldItalic.ttf');
+//     font-weight: bold;
+//     font-style: italic, oblique;
+// }
 
 @font-face {
-    font-family: 'Hack';
-    src: url('font/Hack-Italic.ttf');
-    font-style: italic, oblique;
-}
-
-@font-face {
-    font-family: 'Hack';
-    src: url('font/Hack-BoldItalic.ttf');
-    font-weight: bold;
-    font-style: italic, oblique;
+    font-family: 'Telegrama';
+    src: url('../font/telegrama_render.otf');
 }
 
 // Our variables
 $base-font-family: 'Open Sans', sans-serif;
 $mono-font-family: 'Hack', monospace;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+$title-font-family: 'Telegrama', monospace;
 
 // Import Bootstrap
 @import 
 		"../bower_components/bootstrap/scss/functions",
 		"../bower_components/bootstrap/scss/variables",
+		"variables",
 		"../bower_components/bootstrap/scss/mixins",
 		"../bower_components/bootstrap/scss/reboot",
-		// "../bower_components/bootstrap/scss/type",
+		"../bower_components/bootstrap/scss/type",
 		"../bower_components/bootstrap/scss/images",
 		// "../bower_components/bootstrap/scss/code",
 		"../bower_components/bootstrap/scss/grid",
 		// "../bower_components/bootstrap/scss/tables",
 		// "../bower_components/bootstrap/scss/forms",
 		"../bower_components/bootstrap/scss/buttons",
-		"../bower_components/bootstrap/scss/transitions",
+		// "../bower_components/bootstrap/scss/transitions",
 		// "../bower_components/bootstrap/scss/dropdown",
 		// "../bower_components/bootstrap/scss/button-group",
 		// "../bower_components/bootstrap/scss/input-group",
@@ -88,9 +60,9 @@ $on-laptop:        800px;
 		"../bower_components/bootstrap/scss/navbar",
 		// "../bower_components/bootstrap/scss/card",
 		// "../bower_components/bootstrap/scss/breadcrumb",
-		"../bower_components/bootstrap/scss/pagination",
-		"../bower_components/bootstrap/scss/badge",
-		"../bower_components/bootstrap/scss/jumbotron",
+		// "../bower_components/bootstrap/scss/pagination",
+		// "../bower_components/bootstrap/scss/badge",
+		// "../bower_components/bootstrap/scss/jumbotron",
 		// "../bower_components/bootstrap/scss/alert",
 		// "../bower_components/bootstrap/scss/progress",
 		// "../bower_components/bootstrap/scss/media",
@@ -106,7 +78,8 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base"
-        // "layout",
-        // "syntax-highlighting"
+        "base",
+        "fontawesome/fontawesome",
+        "fontawesome/fa-brands",
+        "fontawesome/fa-solid"
 ;
